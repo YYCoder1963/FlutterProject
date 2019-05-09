@@ -6,6 +6,7 @@ import 'package:flutter_widget_practice/Practice/launch_page.dart';
 import 'package:flutter_widget_practice/Practice/photo_app_page.dart';
 import 'package:flutter_widget_practice/Practice/animation_page.dart';
 import 'package:flutter_widget_practice/Practice/animationWidget_page.dart';
+import 'package:flutter_widget_practice/Practice/rectTween_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         'photo':(BuildContext context) => PhotoApp(),
         'animation':(BuildContext context) => LogoApp(),
         'animationWidget':(BuildContext context) => AnimatedLogoApp(),
+        'rectTween':(BuildContext context) => RectTweenPage(),
       },
     );
   }
@@ -66,6 +68,7 @@ class _RouteNavigatorState extends State<RouteNavigator> {
           _item('【实战尝鲜】拍照APP', PhotoApp(), 'photo'),
           _item('动画', LogoApp(), 'animation'),
           _item('animationWidget', AnimatedLogoApp(), 'animationWidget'),
+          _item('RectTween Practice', RectTweenPage(), 'rectTween'),
         ],
       ),
     );
