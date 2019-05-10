@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_practice/Practice/FlutterLayoutPage.dart';
 import 'package:flutter_widget_practice/Practice/gesture_page.dart';
 import 'package:flutter_widget_practice/Practice/hero_page.dart';
+import 'package:flutter_widget_practice/Practice/http_page.dart';
 import 'package:flutter_widget_practice/Practice/launch_page.dart';
 import 'package:flutter_widget_practice/Practice/photo_app_page.dart';
 import 'package:flutter_widget_practice/Practice/animation_page.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         'animation':(BuildContext context) => LogoApp(),
         'animationWidget':(BuildContext context) => AnimatedLogoApp(),
         'rectTween':(BuildContext context) => RectTweenPage(),
+        'http':(BuildContext context) => HttpPage(),
       },
     );
   }
@@ -69,6 +71,7 @@ class _RouteNavigatorState extends State<RouteNavigator> {
           _item('动画', LogoApp(), 'animation'),
           _item('animationWidget', AnimatedLogoApp(), 'animationWidget'),
           _item('RectTween Practice', RectTweenPage(), 'rectTween'),
+          _item('http Practice', HttpPage(), 'http'),
         ],
       ),
     );

@@ -10,23 +10,9 @@ class RectTweenPage extends StatefulWidget {
 class _RectTweenPageState extends State<RectTweenPage> with SingleTickerProviderStateMixin {
 
   @override
-
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('RectTween Practice'),
-        leading: GestureDetector(
-          onTap: (){
-            Navigator.pop(context);
-          },
-          child: Icon(Icons.arrow_back),
-        ),
-      ),
-      body: Container(
-        child: RadialExpansionDemo(),
-      ),
-    );
+    return  RadialExpansionDemo();
   }
 }
 
@@ -170,9 +156,9 @@ class RadialExpansionDemo extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            _buildHero(context, 'https://pics3.baidu.com/feed/2fdda3cc7cd98d109c8c648a9c7b7b0a7aec90fe.jpeg?token=e3d0927bb2355d66e2235417f1b27a88&s=D62006E098D819CE2A183C51030010D0', 'first'),
-            _buildHero(context, 'https://pics3.baidu.com/feed/2fdda3cc7cd98d109c8c648a9c7b7b0a7aec90fe.jpeg?token=e3d0927bb2355d66e2235417f1b27a88&s=D62006E098D819CE2A183C51030010D0', 'second'),
-            _buildHero(context, 'https://pics3.baidu.com/feed/2fdda3cc7cd98d109c8c648a9c7b7b0a7aec90fe.jpeg?token=e3d0927bb2355d66e2235417f1b27a88&s=D62006E098D819CE2A183C51030010D0', 'third'),
+            _buildHero(context, 'https://raw.githubusercontent.com/flutter/website/master/examples/_animation/radial_Hero_animation/images/chair-alpha.png', 'first'),
+            _buildHero(context, 'https://raw.githubusercontent.com/flutter/website/master/examples/_animation/radial_Hero_animation/images/binoculars-alpha.png', 'second'),
+            _buildHero(context, 'https://raw.githubusercontent.com/flutter/website/master/examples/_animation/radial_Hero_animation/images/beachball-alpha.png', 'third'),
           ],
         ),
       ),
