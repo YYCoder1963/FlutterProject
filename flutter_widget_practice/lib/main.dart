@@ -8,6 +8,7 @@ import 'package:flutter_widget_practice/Practice/photo_app_page.dart';
 import 'package:flutter_widget_practice/Practice/animation_page.dart';
 import 'package:flutter_widget_practice/Practice/animationWidget_page.dart';
 import 'package:flutter_widget_practice/Practice/rectTween_page.dart';
+import 'package:flutter_widget_practice/Practice/shared_preference.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         'animationWidget':(BuildContext context) => AnimatedLogoApp(),
         'rectTween':(BuildContext context) => RectTweenPage(),
         'http':(BuildContext context) => HttpPage(),
+        'preference':(BuildContext context) => SharePreferencePage(),
       },
     );
   }
@@ -72,6 +74,7 @@ class _RouteNavigatorState extends State<RouteNavigator> {
           _item('animationWidget', AnimatedLogoApp(), 'animationWidget'),
           _item('RectTween Practice', RectTweenPage(), 'rectTween'),
           _item('http Practice', HttpPage(), 'http'),
+          _item('preference Practice', SharePreferencePage(), 'preference'),
         ],
       ),
     );
