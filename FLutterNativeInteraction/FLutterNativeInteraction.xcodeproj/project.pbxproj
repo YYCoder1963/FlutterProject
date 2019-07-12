@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DFA97A0FEAFBE9685FCDC39 /* libPods-FLutterNativeInteractionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3CE2E6CF8314B9325D34DA /* libPods-FLutterNativeInteractionUITests.a */; };
+		687C813622D6DA84000425A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C813522D6DA84000425A3 /* AppDelegate.m */; };
+		687C813E22D6DA85000425A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687C813D22D6DA85000425A3 /* Assets.xcassets */; };
+		687C814122D6DA85000425A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687C813F22D6DA85000425A3 /* LaunchScreen.storyboard */; };
+		687C814422D6DA85000425A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C814322D6DA85000425A3 /* main.m */; };
+		687C814E22D6DA86000425A3 /* FLutterNativeInteractionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C814D22D6DA86000425A3 /* FLutterNativeInteractionTests.m */; };
+		687C815922D6DA86000425A3 /* FLutterNativeInteractionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C815822D6DA86000425A3 /* FLutterNativeInteractionUITests.m */; };
+		687C816922D6DA9D000425A3 /* HybridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687C816622D6DA9D000425A3 /* HybridViewController.xib */; };
+		687C816A22D6DA9D000425A3 /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C816822D6DA9D000425A3 /* HybridViewController.m */; };
+		9AB7A258F89629D14F6FC88E /* libPods-FLutterNativeInteraction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDA6069B3972EE90F16FAD0 /* libPods-FLutterNativeInteraction.a */; };
+		DAD617E630696CB4165B178C /* libPods-FLutterNativeInteractionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 835A58044EC73078633EC905 /* libPods-FLutterNativeInteractionTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687C814A22D6DA86000425A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687C812922D6DA84000425A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687C813022D6DA84000425A3;
+			remoteInfo = FLutterNativeInteraction;
+		};
+		687C815522D6DA86000425A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687C812922D6DA84000425A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687C813022D6DA84000425A3;
+			remoteInfo = FLutterNativeInteraction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24657318837F58B58D99D5C3 /* Pods-FLutterNativeInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterNativeInteraction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterNativeInteraction/Pods-FLutterNativeInteraction.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3CE2E6CF8314B9325D34DA /* libPods-FLutterNativeInteractionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLutterNativeInteractionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E55435F9702764E7DB6EB4C /* Pods-FLutterNativeInteractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterNativeInteractionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterNativeInteractionTests/Pods-FLutterNativeInteractionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4639FD57A4514D91375054FA /* Pods-FLutterNativeInteractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterNativeInteractionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterNativeInteractionTests/Pods-FLutterNativeInteractionTests.release.xcconfig"; sourceTree = "<group>"; };
+		687C813122D6DA84000425A3 /* FLutterNativeInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLutterNativeInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687C813422D6DA84000425A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		687C813522D6DA84000425A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		687C813D22D6DA85000425A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687C814022D6DA85000425A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687C814222D6DA85000425A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687C814322D6DA85000425A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		687C814922D6DA86000425A3 /* FLutterNativeInteractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLutterNativeInteractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687C814D22D6DA86000425A3 /* FLutterNativeInteractionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLutterNativeInteractionTests.m; sourceTree = "<group>"; };
+		687C814F22D6DA86000425A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687C815422D6DA86000425A3 /* FLutterNativeInteractionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLutterNativeInteractionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687C815822D6DA86000425A3 /* FLutterNativeInteractionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLutterNativeInteractionUITests.m; sourceTree = "<group>"; };
+		687C815A22D6DA86000425A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687C816622D6DA9D000425A3 /* HybridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HybridViewController.xib; sourceTree = "<group>"; };
+		687C816722D6DA9D000425A3 /* HybridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridViewController.h; sourceTree = "<group>"; };
+		687C816822D6DA9D000425A3 /* HybridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridViewController.m; sourceTree = "<group>"; };
+		835A58044EC73078633EC905 /* libPods-FLutterNativeInteractionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLutterNativeInteractionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8939444664528A11F476FF9C /* Pods-FLutterNativeInteractionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterNativeInteractionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterNativeInteractionUITests/Pods-FLutterNativeInteractionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0667A56C87F1C00825106F /* Pods-FLutterNativeInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterNativeInteraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterNativeInteraction/Pods-FLutterNativeInteraction.release.xcconfig"; sourceTree = "<group>"; };
+		B05A9813FD3F2C09FA68B647 /* Pods-FLutterNativeInteractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterNativeInteractionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterNativeInteractionUITests/Pods-FLutterNativeInteractionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDDA6069B3972EE90F16FAD0 /* libPods-FLutterNativeInteraction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLutterNativeInteraction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687C812E22D6DA84000425A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB7A258F89629D14F6FC88E /* libPods-FLutterNativeInteraction.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C814622D6DA86000425A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD617E630696CB4165B178C /* libPods-FLutterNativeInteractionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C815122D6DA86000425A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFA97A0FEAFBE9685FCDC39 /* libPods-FLutterNativeInteractionUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687C812822D6DA84000425A3 = {
+			isa = PBXGroup;
+			children = (
+				687C813322D6DA84000425A3 /* FLutterNativeInteraction */,
+				687C814C22D6DA86000425A3 /* FLutterNativeInteractionTests */,
+				687C815722D6DA86000425A3 /* FLutterNativeInteractionUITests */,
+				687C813222D6DA84000425A3 /* Products */,
+				E8355BC4C30BEA8098147BC3 /* Pods */,
+				96592219B6F443B6380C3DE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		687C813222D6DA84000425A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687C813122D6DA84000425A3 /* FLutterNativeInteraction.app */,
+				687C814922D6DA86000425A3 /* FLutterNativeInteractionTests.xctest */,
+				687C815422D6DA86000425A3 /* FLutterNativeInteractionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687C813322D6DA84000425A3 /* FLutterNativeInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				687C813422D6DA84000425A3 /* AppDelegate.h */,
+				687C813522D6DA84000425A3 /* AppDelegate.m */,
+				687C816722D6DA9D000425A3 /* HybridViewController.h */,
+				687C816822D6DA9D000425A3 /* HybridViewController.m */,
+				687C816622D6DA9D000425A3 /* HybridViewController.xib */,
+				687C813D22D6DA85000425A3 /* Assets.xcassets */,
+				687C813F22D6DA85000425A3 /* LaunchScreen.storyboard */,
+				687C814222D6DA85000425A3 /* Info.plist */,
+				687C814322D6DA85000425A3 /* main.m */,
+			);
+			path = FLutterNativeInteraction;
+			sourceTree = "<group>";
+		};
+		687C814C22D6DA86000425A3 /* FLutterNativeInteractionTests */ = {
+			isa = PBXGroup;
+			children = (
+				687C814D22D6DA86000425A3 /* FLutterNativeInteractionTests.m */,
+				687C814F22D6DA86000425A3 /* Info.plist */,
+			);
+			path = FLutterNativeInteractionTests;
+			sourceTree = "<group>";
+		};
+		687C815722D6DA86000425A3 /* FLutterNativeInteractionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687C815822D6DA86000425A3 /* FLutterNativeInteractionUITests.m */,
+				687C815A22D6DA86000425A3 /* Info.plist */,
+			);
+			path = FLutterNativeInteractionUITests;
+			sourceTree = "<group>";
+		};
+		96592219B6F443B6380C3DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA6069B3972EE90F16FAD0 /* libPods-FLutterNativeInteraction.a */,
+				835A58044EC73078633EC905 /* libPods-FLutterNativeInteractionTests.a */,
+				2C3CE2E6CF8314B9325D34DA /* libPods-FLutterNativeInteractionUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8355BC4C30BEA8098147BC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24657318837F58B58D99D5C3 /* Pods-FLutterNativeInteraction.debug.xcconfig */,
+				AB0667A56C87F1C00825106F /* Pods-FLutterNativeInteraction.release.xcconfig */,
+				3E55435F9702764E7DB6EB4C /* Pods-FLutterNativeInteractionTests.debug.xcconfig */,
+				4639FD57A4514D91375054FA /* Pods-FLutterNativeInteractionTests.release.xcconfig */,
+				8939444664528A11F476FF9C /* Pods-FLutterNativeInteractionUITests.debug.xcconfig */,
+				B05A9813FD3F2C09FA68B647 /* Pods-FLutterNativeInteractionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687C813022D6DA84000425A3 /* FLutterNativeInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687C815D22D6DA86000425A3 /* Build configuration list for PBXNativeTarget "FLutterNativeInteraction" */;
+			buildPhases = (
+				687C817522D6DEB0000425A3 /* ShellScript */,
+				8D5CBDAF157C6775D0B485F0 /* [CP] Check Pods Manifest.lock */,
+				687C812D22D6DA84000425A3 /* Sources */,
+				687C812E22D6DA84000425A3 /* Frameworks */,
+				687C812F22D6DA84000425A3 /* Resources */,
+				F87A37E0CEF52F0B9B03F07C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLutterNativeInteraction;
+			productName = FLutterNativeInteraction;
+			productReference = 687C813122D6DA84000425A3 /* FLutterNativeInteraction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687C814822D6DA86000425A3 /* FLutterNativeInteractionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687C816022D6DA86000425A3 /* Build configuration list for PBXNativeTarget "FLutterNativeInteractionTests" */;
+			buildPhases = (
+				F1840A24DB4157FEAF7D63E1 /* [CP] Check Pods Manifest.lock */,
+				687C814522D6DA86000425A3 /* Sources */,
+				687C814622D6DA86000425A3 /* Frameworks */,
+				687C814722D6DA86000425A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687C814B22D6DA86000425A3 /* PBXTargetDependency */,
+			);
+			name = FLutterNativeInteractionTests;
+			productName = FLutterNativeInteractionTests;
+			productReference = 687C814922D6DA86000425A3 /* FLutterNativeInteractionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687C815322D6DA86000425A3 /* FLutterNativeInteractionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687C816322D6DA86000425A3 /* Build configuration list for PBXNativeTarget "FLutterNativeInteractionUITests" */;
+			buildPhases = (
+				18FDE5AFDCF452BF9184FF77 /* [CP] Check Pods Manifest.lock */,
+				687C815022D6DA86000425A3 /* Sources */,
+				687C815122D6DA86000425A3 /* Frameworks */,
+				687C815222D6DA86000425A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687C815622D6DA86000425A3 /* PBXTargetDependency */,
+			);
+			name = FLutterNativeInteractionUITests;
+			productName = FLutterNativeInteractionUITests;
+			productReference = 687C815422D6DA86000425A3 /* FLutterNativeInteractionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687C812922D6DA84000425A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lyy;
+				TargetAttributes = {
+					687C813022D6DA84000425A3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					687C814822D6DA86000425A3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 687C813022D6DA84000425A3;
+					};
+					687C815322D6DA86000425A3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 687C813022D6DA84000425A3;
+					};
+				};
+			};
+			buildConfigurationList = 687C812C22D6DA84000425A3 /* Build configuration list for PBXProject "FLutterNativeInteraction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687C812822D6DA84000425A3;
+			productRefGroup = 687C813222D6DA84000425A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687C813022D6DA84000425A3 /* FLutterNativeInteraction */,
+				687C814822D6DA86000425A3 /* FLutterNativeInteractionTests */,
+				687C815322D6DA86000425A3 /* FLutterNativeInteractionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687C812F22D6DA84000425A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687C814122D6DA85000425A3 /* LaunchScreen.storyboard in Resources */,
+				687C813E22D6DA85000425A3 /* Assets.xcassets in Resources */,
+				687C816922D6DA9D000425A3 /* HybridViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C814722D6DA86000425A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C815222D6DA86000425A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FDE5AFDCF452BF9184FF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLutterNativeInteractionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687C817522D6DEB0000425A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
+		8D5CBDAF157C6775D0B485F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLutterNativeInteraction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1840A24DB4157FEAF7D63E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLutterNativeInteractionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87A37E0CEF52F0B9B03F07C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FLutterNativeInteraction/Pods-FLutterNativeInteraction-frameworks.sh",
+				"${PODS_ROOT}/../../flutter_module/.ios/Flutter/engine/Flutter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLutterNativeInteraction/Pods-FLutterNativeInteraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687C812D22D6DA84000425A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687C814422D6DA85000425A3 /* main.m in Sources */,
+				687C816A22D6DA9D000425A3 /* HybridViewController.m in Sources */,
+				687C813622D6DA84000425A3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C814522D6DA86000425A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687C814E22D6DA86000425A3 /* FLutterNativeInteractionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C815022D6DA86000425A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687C815922D6DA86000425A3 /* FLutterNativeInteractionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687C814B22D6DA86000425A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687C813022D6DA84000425A3 /* FLutterNativeInteraction */;
+			targetProxy = 687C814A22D6DA86000425A3 /* PBXContainerItemProxy */;
+		};
+		687C815622D6DA86000425A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687C813022D6DA84000425A3 /* FLutterNativeInteraction */;
+			targetProxy = 687C815522D6DA86000425A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687C813F22D6DA85000425A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687C814022D6DA85000425A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687C815B22D6DA86000425A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		687C815C22D6DA86000425A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687C815E22D6DA86000425A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24657318837F58B58D99D5C3 /* Pods-FLutterNativeInteraction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA76DQ67HR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FLutterNativeInteraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XL.FLutterNativeInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687C815F22D6DA86000425A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0667A56C87F1C00825106F /* Pods-FLutterNativeInteraction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA76DQ67HR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FLutterNativeInteraction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XL.FLutterNativeInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		687C816122D6DA86000425A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E55435F9702764E7DB6EB4C /* Pods-FLutterNativeInteractionTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA76DQ67HR;
+				INFOPLIST_FILE = FLutterNativeInteractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XL.FLutterNativeInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLutterNativeInteraction.app/FLutterNativeInteraction";
+			};
+			name = Debug;
+		};
+		687C816222D6DA86000425A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4639FD57A4514D91375054FA /* Pods-FLutterNativeInteractionTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA76DQ67HR;
+				INFOPLIST_FILE = FLutterNativeInteractionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XL.FLutterNativeInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLutterNativeInteraction.app/FLutterNativeInteraction";
+			};
+			name = Release;
+		};
+		687C816422D6DA86000425A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8939444664528A11F476FF9C /* Pods-FLutterNativeInteractionUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA76DQ67HR;
+				INFOPLIST_FILE = FLutterNativeInteractionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XL.FLutterNativeInteractionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLutterNativeInteraction;
+			};
+			name = Debug;
+		};
+		687C816522D6DA86000425A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05A9813FD3F2C09FA68B647 /* Pods-FLutterNativeInteractionUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA76DQ67HR;
+				INFOPLIST_FILE = FLutterNativeInteractionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XL.FLutterNativeInteractionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLutterNativeInteraction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687C812C22D6DA84000425A3 /* Build configuration list for PBXProject "FLutterNativeInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687C815B22D6DA86000425A3 /* Debug */,
+				687C815C22D6DA86000425A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687C815D22D6DA86000425A3 /* Build configuration list for PBXNativeTarget "FLutterNativeInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687C815E22D6DA86000425A3 /* Debug */,
+				687C815F22D6DA86000425A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687C816022D6DA86000425A3 /* Build configuration list for PBXNativeTarget "FLutterNativeInteractionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687C816122D6DA86000425A3 /* Debug */,
+				687C816222D6DA86000425A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687C816322D6DA86000425A3 /* Build configuration list for PBXNativeTarget "FLutterNativeInteractionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687C816422D6DA86000425A3 /* Debug */,
+				687C816522D6DA86000425A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687C812922D6DA84000425A3 /* Project object */;
+}

@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/lyy/Desktop/FlutterProject/FLutterHybridDemo/FLutterHybridDemo/main.m \
+  /Users/lyy/Desktop/FlutterProject/FLutterHybridDemo/FLutterHybridDemo/AppDelegate.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Modules/module.modulemap \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/lyy/Desktop/FlutterProject/flutter_module/.ios/Flutter/engine/Flutter.framework/Headers/Flutter.h
